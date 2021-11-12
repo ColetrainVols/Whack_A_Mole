@@ -2,7 +2,7 @@ package com.whacksomething;
 
 import android.content.Context;
 
-import android.content.res.Resources;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -37,10 +37,9 @@ public class ImageAdapter extends BaseAdapter {
         ImageView imageView;
 
 
-
         if (convertView == null) {
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(105, 105));
+            imageView.setLayoutParams(new GridView.LayoutParams(200, 200));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(5, 5, 5, 5);
         }
