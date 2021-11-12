@@ -18,10 +18,10 @@
     <GridView
         android:id="@+id/myGridView"
         android:layout_width="match_parent"
-        android:layout_height="485dp"
+        android:layout_height="593dp"
         android:numColumns="3"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="80dp"
+        android:verticalSpacing="60dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
